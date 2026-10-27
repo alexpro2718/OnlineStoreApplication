@@ -25,7 +25,7 @@ Content-Type: application/json
   "name": "Монитор Samsung 4K",
   "description": "27 дюймов, разрешение 4K",
   "price": 35000,
-  "stockQuantity": 10
+  "stockQuantity": 7
 }
 
 ### Удалить товар
