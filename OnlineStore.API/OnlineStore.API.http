@@ -1,0 +1,32 @@
+@host = https://localhost:7123
+
+### Получить все товары
+GET {{host}}/api/products
+
+### Создать товар
+POST {{host}}/api/products
+Content-Type: application/json
+
+{
+  "name": "Монитор Samsung",
+  "description": "27 дюймов",
+  "price": 25000,
+  "stockQuantity": 15
+}
+
+### Получить товар
+GET {{host}}/api/products/1
+
+### Обновить товар
+PUT {{host}}/api/products/1
+Content-Type: application/json
+
+{
+  "name": "Монитор Samsung 4K",
+  "description": "27 дюймов, разрешение 4K",
+  "price": 35000,
+  "stockQuantity": 10
+}
+
+### Удалить товар
+DELETE {{host}}/api/products/1
