@@ -1,4 +1,4 @@
-@host = https://localhost:7123
+@host = https://localhost:7282
 
 ### Получить все товары
 GET {{host}}/api/products
@@ -10,7 +10,7 @@ Content-Type: application/json
 {
   "name": "Монитор Samsung",
   "description": "27 дюймов",
-  "price": 25000,
+  "price": 15000,
   "stockQuantity": 15
 }
 
